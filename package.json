@@ -1,24 +1,45 @@
 {
 	"name": "mura-theme-bootstrap4",
-	"version": "0.0.0",
-	"description": "Development Site",
-	"main": "index.js",
+	"version": "1.0.0",
+	"version_short": "1.0",
+	"license": "MIT",
+	"access": "public",
+	"description": "Starter Mura theme using the Bootstrap & Font Awesome toolkits.",
+	"author": "Steve Withington <steve@digitalmine.com> (https://www.digitalmine.com)",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "npm run build-scripts && npm run styles-only",
+		"build-scripts": "tsc --noEmit && parcel build src/scripts/theme.ts --out-dir js --out-file theme.js",
+		"styles-only": "parcel build src/styles/theme.scss --out-dir css --out-file theme.css && parcel build src/styles/editor.scss --out-dir css --out-file editor.css"
 	},
-	"author": "",
+	"keywords": [
+		"mura",
+		"theme",
+		"bootstrap",
+		"font awesome",
+		"template"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/digitalminellc/mura-theme-bootstrap4.git"
+	},
+	"bugs": {
+		"url": "https://github.com/digitalminellc/mura-theme-bootstrap4/issues"
+	},
+	"homepage": "https://github.com/digitalminellc/mura-theme-bootstrap4#readme",
+	"dependencies": {},
 	"devDependencies": {
-		"gulp": "^3.9.1",
-		"gulp-autoprefixer": "~4.0.0",
-		"gulp-concat": "~2.6.1",
-		"gulp-cssnano": "~2.1.2",
-		"gulp-declare": "~0.3.0",
-		"gulp-group-css-media-queries": "~1.2.0",
-		"gulp-livereload": "^3.8.1",
-		"gulp-rename": "~1.2.2",
-		"gulp-sass": "~3.1.0",
-		"gulp-sourcemaps": "~2.6.1",
-		"gulp-uglify": "~3.0.0",
-		"gulp-wrap": "~0.13.0"
-	}
+		"@babel/core": "^7.11.6",
+		"@babel/plugin-proposal-class-properties": "^7.10.4",
+		"@fortawesome/fontawesome-free": "^5.14.0",
+		"@types/jquery": "^3.5.1",
+		"@types/node": "^14.6.3",
+		"bootstrap": "^4.5.2",
+		"jquery": "^3.5.1",
+		"parcel-bundler": "^1.12.4",
+		"popper.js": "^1.16.1",
+		"sass": "^1.26.10",
+		"tslib": "^2.0.1",
+		"typescript": "^4.0.2"
+	},
+	"main": "src/index.html"
 }

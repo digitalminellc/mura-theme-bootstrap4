@@ -32,7 +32,7 @@
 							</li>
 							<li class="mb-2">
 								<i class="fa fa-plug mr-1" aria-hidden="true"></i>
-								<a href="http://www.getmura.com">Powered by Mura</a>
+								<a href="https://www.getmura.com">Powered by Mura</a>
 							</li>
 						</ul>
 					</div>

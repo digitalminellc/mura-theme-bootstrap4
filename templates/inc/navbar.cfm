@@ -3,7 +3,7 @@
 	<nav class="navbar navbar-expand-lg bg-light navbar-light navbar-static-top py-4">
 		<div class="container">
 
-			<a class="navbar-brand" href="#$.createHREF(filename='')#">#esapiEncode('html', $.siteConfig('site'))#</a>
+			<a class="navbar-brand" href="#$.createHREF(filename='')#">#encodeForHTML($.siteConfig('site'))#</a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="##siteNavbar" aria-controls="siteNavbar" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -14,7 +14,7 @@
 				<cf_CacheOMatic key="dspPrimaryNav">
 					<!---
 						For information on dspPrimaryNav(), visit:
-						http://docs.getmura.com/v6/front-end/template-variables/document-body/
+						https://docs.getmura.com/v7/theme-developers/creating-layout-templates/template-variables-helper-methods/dspprimarynav/
 					--->
 					#$.dspPrimaryNav(
 						viewDepth=1
@@ -57,7 +57,7 @@
 
 				<form method="post" id="searchForm" class="form-inline" role="search" action="#m.createHREF(filename='search-results')#">
 					<div class="input-group">
-						<input type="text" name="Keywords" id="navKeywords" class="form-control" value="#esapiEncode('html', $.event('keywords'))#" placeholder="#$.rbKey('search.search')#" aria-label="Search">
+						<input type="text" name="Keywords" id="navKeywords" class="form-control" value="#encodeForHTML($.event('keywords'))#" placeholder="#$.rbKey('search.search')#" aria-label="Search">
 						<span class="input-group-btn">
 							<button type="submit" class="btn btn-secondary">
 								<i class="fa fa-search" aria-hidden="true"></i>

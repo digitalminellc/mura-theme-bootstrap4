@@ -1,6 +1,4 @@
 <cfoutput>
-	<!--- Bootstrap JavaScript --->
-	<script src="#$.siteConfig('themeAssetPath')#/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<!--- Theme JavaScript --->
-	<!--- <script src="#$.siteConfig('themeAssetPath')#/js/theme/theme.js"></script> --->
+	<!--- Including in `html_head.cfm` instead because it also includes jQuery --->
+	<!--- <script src="#$.siteConfig('themeAssetPath')#/js/theme.js"></script> --->
 </cfoutput>

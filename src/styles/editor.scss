@@ -1,0 +1,10 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+@import 'partials/theme/colors';
+@import 'partials/theme/typography';
+
+body {
+	background: $white;
+	padding: 1em;
+}

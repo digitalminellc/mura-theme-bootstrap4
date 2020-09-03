@@ -23,7 +23,8 @@
 				<!--- Content Release Date --->
 					<cfif IsDate($.setDynamicContent($.content('releasedate')))>
 						<li class="list-inline-item">
-							<i class="fa fa-clock-o" aria-hidden="true"></i> #LSDateFormat($.setDynamicContent($.content('releasedate')))#
+							<i class="fa fa-clock-o" aria-hidden="true"></i>
+							#LSDateFormat($.setDynamicContent($.content('releasedate')))#
 						</span>
 					</cfif>
 				<!--- /Content Release Date --->
@@ -31,7 +32,8 @@
 				<!--- Comments --->
 					<cfif commentCount gt 0>
 						<li class="list-inline-item">
-							<i class="fa fa-comments" aria-hidden="true"></i> #commentCount# Comment<cfif commentCount gt 1>s</cfif>
+							<i class="fa fa-comments" aria-hidden="true"></i>
+							#commentCount# Comment<cfif commentCount gt 1>s</cfif>
 						</li>
 					</cfif>
 				<!--- /Comments --->
@@ -41,7 +43,7 @@
 						<li class="list-inline-item">
 							<i class="fa fa-tags" aria-hidden="true"></i>
 							<cfloop from="1" to="#ListLen($.content().getTags())#" index="t">
-							#esapiEncode('html', trim(ListGetAt($.content().getTags(), t)))#<cfif t neq ListLen($.content().getTags())>, </cfif>
+							#encodeForHTML(trim(ListGetAt($.content().getTags(), t)))#<cfif t neq ListLen($.content().getTags())>, </cfif>
 							</cfloop>
 						</li>
 					</cfif>
@@ -53,7 +55,7 @@
 							<i class="fa fa-folder-open" aria-hidden="true"></i>
 							<cfloop condition="itCategories.hasNext()">
 								<cfset categoryItem = itCategories.next()>
-								#HTMLEditFormat(categoryItem.getName())#</a><cfif itCategories.hasNext()>, </cfif>
+								#encodeForHTML(categoryItem.getName())#</a><cfif itCategories.hasNext()>, </cfif>
 							</cfloop>
 						</li>
 					</cfif>
@@ -62,7 +64,7 @@
 				<!--- Credits --->
 					<cfif Len($.setDynamicContent($.content('credits')))>
 						<li class="list-inline-item">
-							<i class="fa fa-user" aria-hidden="true"></i> #esapiEncode('html', $.setDynamicContent($.content('credits')))#
+							<i class="fa fa-user" aria-hidden="true"></i> #encodeForHTML($.setDynamicContent($.content('credits')))#
 						</li>
 					</cfif>
 				<!--- /Credits --->
@@ -81,8 +83,8 @@
 				);
 			</cfscript>
 			<div class="mura-asset my-3">
-				<a class="mura-meta-image-link" href="#$.content().getImageURL()#" title="#esapiEncode('html_attr', $.content('title'))#" rel="shadowbox[body]">
-					<img class="mura-meta-image img-thumbnail img-responsive" src="#img#" alt="#esapiEncode('html_attr', $.content('title'))#">
+				<a class="mura-meta-image-link" href="#$.content().getImageURL()#" title="#encodeForHTMLAttribute($.content('title'))#" rel="shadowbox[body]">
+					<img class="mura-meta-image img-thumbnail img-responsive" src="#img#" alt="#encodeForHTMLAttribute($.content('title'))#">
 				</a>
 			</div>
 		</cfif>
