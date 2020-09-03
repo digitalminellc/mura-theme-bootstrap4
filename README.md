@@ -9,7 +9,7 @@ A [Mura](http://www.getmura.com) theme based on [Bootstrap](http://getbootstrap.
 
 ## Site Bundle
 
-This theme is automatically packaged with the Site Bundle located at [https://github.com/digitalminellc/mura-bundle-bootstrap4]. To learn more, simply follow the instructions located in the [README.md](https://github.com/digitalminellc/mura-theme-bootstrap4/blob/master/README.md) file.
+This theme is automatically packaged with the Site Bundle located at [https://github.com/digitalminellc/mura-bundle-bootstrap4](https://github.com/digitalminellc/mura-bundle-bootstrap4). To learn more, simply follow the instructions located in the [README.md](https://github.com/digitalminellc/mura-theme-bootstrap4/blob/master/README.md) file.
 
 ## License
 
