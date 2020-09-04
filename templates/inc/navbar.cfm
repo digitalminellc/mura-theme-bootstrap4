@@ -14,7 +14,7 @@
 				<cf_CacheOMatic key="dspPrimaryNav">
 					<!---
 						For information on dspPrimaryNav(), visit:
-						https://docs.getmura.com/v7/theme-developers/creating-layout-templates/template-variables-helper-methods/dspprimarynav/
+						https://docs.getmura.com/v7-1/theme-developers/creating-layout-templates/template-variables-helper-methods/dspprimarynav/
 					--->
 					#$.dspPrimaryNav(
 						viewDepth=1
@@ -58,7 +58,7 @@
 				<form method="post" id="searchForm" class="form-inline" role="search" action="#m.createHREF(filename='search-results')#">
 					<div class="input-group">
 						<input type="text" name="Keywords" id="navKeywords" class="form-control" value="#encodeForHTML($.event('keywords'))#" placeholder="#$.rbKey('search.search')#" aria-label="Search">
-						<span class="input-group-btn">
+						<span class="input-group-append">
 							<button type="submit" class="btn btn-secondary">
 								<i class="fa fa-search" aria-hidden="true"></i>
 								<span class="sr-only">Search</span>
