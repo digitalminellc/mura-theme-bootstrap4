@@ -1,4 +1,4 @@
-component extends='mura.cfobjet' output=false {
+component extends='mura.cfobject' output=false {
 
 	/*
 			This is the THEME eventHandler.cfc
