@@ -1,4 +1,4 @@
-import $ from 'jquery';
+//import $ from 'jquery';
 
 import {
 	Util,
@@ -16,7 +16,7 @@ import {
 } from 'bootstrap';
 
 
-const init = () => {
+const initTheme = () => {
 
 	$(document).ready(function () {
 		//	Append a caret to any submenu in the navigation with children
@@ -42,6 +42,8 @@ const init = () => {
 		});
 	});
 
+	console.log('Theme initialized');
+
 }
 
-init();
+initTheme();

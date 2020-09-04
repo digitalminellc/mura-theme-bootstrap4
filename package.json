@@ -7,9 +7,9 @@
 	"description": "Starter Mura theme using the Bootstrap & Font Awesome toolkits.",
 	"author": "Steve Withington <steve@digitalmine.com> (https://www.digitalmine.com)",
 	"scripts": {
-		"build": "npm run build-scripts && npm run styles-only",
+		"build": "npm run build-scripts && npm run build-styles",
 		"build-scripts": "tsc --noEmit && parcel build src/scripts/theme.ts --out-dir js --out-file theme.js",
-		"styles-only": "parcel build src/styles/theme.scss --out-dir css --out-file theme.css && parcel build src/styles/editor.scss --out-dir css --out-file editor.css"
+		"build-styles": "parcel build src/styles/theme.scss --out-dir css --out-file theme.css && parcel build src/styles/editor.scss --out-dir css --out-file editor.css"
 	},
 	"keywords": [
 		"mura",
