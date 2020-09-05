@@ -5,34 +5,34 @@
 				<div class="row">
 					<div class="col-lg-6 mb-4">
 						<h4>About</h4>
-						<p>Mura CMS's rich feature set and powerful extensibility provides a toolkit for tackling and completing challenging Web projects, even those requiring deep integration and custom development. Our professional services team can assist your developers or lead the project from conception to delivery.</p>
+						<p>Mura's rich feature set and powerful extensibility provides a toolkit for tackling and completing challenging Web projects, even those requiring deep integration and custom development. Our professional services team can assist your developers or lead the project from conception to delivery.</p>
 					</div>
 
 					<div class="col-lg-6 col-xl-3 mb-4">
 						<h4>Contact Info</h4>
 						<ul class="list-unstyled">
 							<li class="mb-2">
-								<i class="fa fa-phone mr-1" aria-hidden="true"></i>
-								<a href="tel:1-916-608-8608">+1(916)608-8608 <strong>Local</strong></a>
+								<i class="fas fa-mobile mr-1" aria-hidden="true"></i>
+								<a href="tel:1-414-555-1212">+1(414)555-1212 <strong>Local</strong></a>
 							</li>
 							<li class="mb-2">
-								<i class="fa fa-phone mr-1" aria-hidden="true"></i>
-								<a href="tel:1-800-466-7525">+1(800)466-7525 <strong>Toll Free</strong></a>
+								<i class="fas fa-mobile-alt mr-1" aria-hidden="true"></i>
+								<a href="tel:1-800-555-1212">+1(888)555-1212 <strong>Toll Free</strong></a>
 							</li>
 							<li class="mb-2">
-								<i class="fa fa-envelope mr-1" aria-hidden="true"></i>
-								<a href="mailto:info@blueriver.com">info@blueriver.com</a>
+								<i class="fas fa-envelope mr-1" aria-hidden="true"></i>
+								<a href="mailto:steve@digitalmine.com">steve@digitalmine.com</a>
 							</li>
 						</ul>
 
 						<ul class="list-unstyled">
 							<li class="mb-2">
-								<i class="fa fa-arrows-alt mr-1" aria-hidden="true"></i>
+								<i class="fas fa-window-maximize-alt mr-1" aria-hidden="true"></i>
 								<a href="##myModal" data-toggle="modal">Sample Modal Window</a>
 							</li>
 							<li class="mb-2">
-								<i class="fa fa-plug mr-1" aria-hidden="true"></i>
-								<a href="https://www.getmura.com">Powered by Mura</a>
+								<i class="fas fa-crown mr-1" aria-hidden="true"></i>
+								<a href="https://www.digitalmine.com">Training by digitalmine LLC</a>
 							</li>
 						</ul>
 					</div>
@@ -40,21 +40,17 @@
 					<div class="col-lg-12 col-xl-3 mb-4">
 						<h4>Follow</h4>
 						<div>
-							<a class="btn btn-sm btn-primary" href="https://github.com/blueriver/MuraCMS">
-								<i class="fa fa-lg fa-github" aria-hidden="true"></i>
-								<span class="sr-only">MuraCMS Github</span>
+							<a class="btn btn-sm btn-primary" href="https://github.com/digitalminellc">
+								<i class="fab fa-lg fa-github" aria-hidden="true"></i>
+								<span class="sr-only">Github</span>
 							</a>
-							<a class="btn btn-sm btn-primary" href="https://twitter.com/muracms">
-								<i class="fa fa-lg fa-twitter" aria-hidden="true"></i>
-								<span class="sr-only">MuraCMS Twitter</span>
+							<a class="btn btn-sm btn-primary" href="https://twitter.com/stevewithington">
+								<i class="fab fa-lg fa-twitter" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
 							</a>
-							<a class="btn btn-sm btn-primary" href="https://groups.google.com/forum/##!forum/mura-cms-developers">
-								<i class="fa fa-lg fa-google" aria-hidden="true"></i>
-								<span class="sr-only">MuraCMS Google Group</span>
-							</a>
-							<a class="btn btn-sm btn-primary" href="https://www.linkedin.com/groups/1883780">
-								<i class="fa fa-lg fa-linkedin" aria-hidden="true"></i>
-								<span class="sr-only">MuraCMS LinkedIn</span>
+							<a class="btn btn-sm btn-primary" href="https://www.linkedin.com/in/stevewithington/">
+								<i class="fab fa-lg fa-linkedin" aria-hidden="true"></i>
+								<span class="sr-only">LinkedIn</span>
 							</a>
 						</div>
 					</div>
