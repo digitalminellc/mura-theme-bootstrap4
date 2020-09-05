@@ -24,7 +24,7 @@
 								<a href="mailto:steve@digitalmine.com">steve@digitalmine.com</a>
 							</li>
 							<li class="mb-2">
-								<i class="fas fa-graduation-cap mr-1" aria-hidden="true"></i>
+								<i class="fas fa-chalkboard-teacher mr-1" aria-hidden="true"></i>
 								<a href="https://www.digitalmine.com">Training by digitalmine LLC</a>
 							</li>
 							<li class="mb-2">
