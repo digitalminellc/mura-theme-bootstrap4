@@ -9,3 +9,17 @@ $fa-font-path: '../../node_modules/@fortawesome/fontawesome-free/webfonts';
 
 // Theme
 @import 'partials/all';
+
+footer {
+	ul {
+		&.list-unstyled {
+			i {
+				&.fa, &.fas {
+					width: 1.5em;
+					text-align: center;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+}
