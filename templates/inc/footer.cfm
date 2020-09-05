@@ -12,27 +12,24 @@
 						<h4>Contact Info</h4>
 						<ul class="list-unstyled">
 							<li class="mb-2">
-								<i class="fas fa-mobile mr-1" aria-hidden="true"></i>
+								<i class="fas fa-mobile-alt mr-1" aria-hidden="true"></i>
 								<a href="tel:1-414-555-1212">+1(414)555-1212 <strong>Local</strong></a>
 							</li>
 							<li class="mb-2">
-								<i class="fas fa-mobile-alt mr-1" aria-hidden="true"></i>
+								<i class="fas fa-phone mr-1" aria-hidden="true"></i>
 								<a href="tel:1-800-555-1212">+1(888)555-1212 <strong>Toll Free</strong></a>
 							</li>
 							<li class="mb-2">
-								<i class="fas fa-envelope mr-1" aria-hidden="true"></i>
+								<i class="fas fa-at mr-1" aria-hidden="true"></i>
 								<a href="mailto:steve@digitalmine.com">steve@digitalmine.com</a>
 							</li>
-						</ul>
-
-						<ul class="list-unstyled">
 							<li class="mb-2">
-								<i class="fas fa-window-maximize-alt mr-1" aria-hidden="true"></i>
-								<a href="##myModal" data-toggle="modal">Sample Modal Window</a>
+								<i class="fas fa-graduation-cap mr-1" aria-hidden="true"></i>
+								<a href="https://www.digitalmine.com">Training by digitalmine LLC</a>
 							</li>
 							<li class="mb-2">
-								<i class="fas fa-crown mr-1" aria-hidden="true"></i>
-								<a href="https://www.digitalmine.com">Training by digitalmine LLC</a>
+								<i class="fas fa-window-maximize mr-1" aria-hidden="true"></i>
+								<a href="##myModal" data-toggle="modal">Sample Modal Window</a>
 							</li>
 						</ul>
 					</div>
