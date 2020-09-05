@@ -1,4 +1,13 @@
-import $ from 'jquery';
+//import $ from 'jquery';
+const jQuery = require('jquery');
+
+declare global {
+	interface Window {
+		$: any;
+	}
+}
+
+window.$ = jQuery;
 
 import {
 	Util,
